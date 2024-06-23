@@ -4,6 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import projImg3 from "../assets/img/project-img3.png"
 import projImg2 from "../assets/img/project-img2.png"
 import projImg1 from "../assets/img/project-img1.png"
+import masters from "../assets/pdf/masters.pdf";
+
 
 
 export const Projects = () => {
@@ -11,37 +13,38 @@ export const Projects = () => {
         {
             title: "Building a neural network layer by layer",
             description: "Research project",
-            imgUrl: projImg3,
+            imgUrl: masters,
+            image: false,
         },
         {
             title: "Simulations of hybrid system using neural networks",
             description: "Research project",
-            imgUrl: projImg3,
+            imgUrl: masters,
+            image: false,
         },
         {
             title: "Cheopily",
             description: "Business start up",
             imgUrl: projImg3,
+            image: true,
         },
         {
             title: "Neural network image transfer",
             description: "Business start up",
             imgUrl: projImg3,
+            image: true,
         },
         {
             title: "Django blog  website",
             description: "Design and developement",
             imgUrl: projImg3,
-        },
-        {
-            title: "Django blog  website",
-            description: "Design and developement",
-            imgUrl: projImg3,
+            image: true,
         },
         {
             title: "image classification",
             description: "Design and developement",
             imgUrl: projImg3,
+            image: true,
         }
     ]
     
