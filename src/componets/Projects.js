@@ -5,6 +5,8 @@ import projImg3 from "../assets/img/project-img3.png"
 import projImg2 from "../assets/img/project-img2.png"
 import projImg1 from "../assets/img/project-img1.png"
 import masters from "../assets/pdf/masters.pdf";
+import dist from "../assets/pdf/batch.pdf";
+
 
 
 
@@ -19,7 +21,7 @@ export const Projects = () => {
         {
             title: "Simulations of hybrid system using neural networks",
             description: "Research project",
-            imgUrl: masters,
+            imgUrl: dist,
             image: false,
         },
         {
