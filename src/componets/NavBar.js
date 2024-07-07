@@ -41,6 +41,7 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>About</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
@@ -48,10 +49,10 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/adanna-obibuaku/"><img src={linkedin} alt="" /></a> 
                 <a href='#' onClick={(e) => {window.location.href = "mailto:aaddanna@outlook.com"; e.preventDefault();}}>
-                <img src={mail} alt="" /></a>               
+                <img src={mail} alt="mail icon" /></a>               
                 <a href="https://github.com/runnily"><img src={github} alt="" /></a>
               </div>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd link-button" onClick={(e) => window.location.href = "https://www.linkedin.com/in/adanna-obibuaku/"}><span>Let’s Connect</span></button>
             </span>
           </Navbar.Collapse>
         </Container>

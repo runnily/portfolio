@@ -302,12 +302,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 80px 0;
   position: relative;
-  background-image: url("./assets/img/gradient2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 .skill-bx {
   background: #1c131c;
@@ -344,29 +340,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/************ Experience Css ************/
+
+.experience-bx {
+  background: #1c131c;
+  border-radius: 64px;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.experience-bx p .experience-bx h2 {
+  text-align: center;
+}
+
+.experience {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+.experience h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.experience p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  margin: 5px auto 30px auto;
+  line-height: 1.5em;
+  width: 86%;
+}
+
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 50px 0;
   position: relative;
-  background-image: url("./assets/img/gradient2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
-.project p {
+.project p:not(.cheopily-description) {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
-  text-align: center;
   width: 56%;
 }
+
+.cheopily-description p {
+  margin: 0px auto 0px auto;
+  width: 80%;
+}
+
+.projects-header p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  width: 56%;
+  text-align: center;
+}
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -377,7 +415,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
-.project .nav.nav-pills .nav-link {
+.project .nav.nav-pills .nav-link, .experience  .nav-pills {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -391,7 +429,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
+.project .nav.nav-pills .nav-link::before  {
     content: "";
     position: absolute;
     width: 0;
@@ -496,4 +534,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/** other **/
+.icon {
+  width: 24px;
+  height: 24px;
 }

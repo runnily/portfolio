@@ -55,17 +55,27 @@ export const Banner = () => {
                                         {text}
                                     </span>
                                     <br/>
-                                    <p>
-                                        Passionate about data enginnering and machine learning
+                                    <br/>
+                                    <p style={{color: "black"}}>
+                                    I am a Data Engineer at Spotify, specializing in 
+                                    building and optimizing data pipelines with Scala, 
+                                    Python, Google Dataflow, and other Google Cloud 
+                                    tools to support machine learning models. 
+                                    I enjoy exploring new computer science projects 
+                                    and have a strong interest in machine learning research. 
+                                
+                                    </p>
+                                    <p style={{color: "black"}}>
+                                    In my free time, I watch educational videos on history, philosophy, astronomy, and cognitive science
+                                    Outside of tech, I love long hikes and experimenting with cooking new recipes. 😊 
                                     </p>
                                     <button onClick={ () => console.log('console')}>
-                                        Lets connect <ArrowRightCircle size={25}></ArrowRightCircle>
+                                        Lets connect <ArrowRightCircle onClick={(e) => window.location.href = "https://www.linkedin.com/in/adanna-obibuaku/"} size={25}></ArrowRightCircle>
                                     </button>
                                 </h1>
                         
                     </Col>
                     <Col cs={2} md={6} xl={5}>
-                        // update
                         <img src={headerImg} alt="Header img"/>
                     </Col>
                 </Row>
