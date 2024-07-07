@@ -310,7 +310,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 60px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -342,14 +342,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Experience Css ************/
 
-.experience-bx {
-  background: #1c131c;
-  border-radius: 64px;
-  padding: 60px 50px;
-  margin-top: -60px;
-}
-
-.experience-bx p .experience-bx h2 {
+.tabs p .tabs h2 .tabs h5 {
   text-align: center;
 }
 
@@ -362,6 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
+
 .experience p {
   color: #B8B8B8;
   font-size: 18px;
@@ -369,6 +363,61 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 5px auto 30px auto;
   line-height: 1.5em;
   width: 86%;
+}
+
+.tabs {
+  margin-top: -100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  border-radius: 64px;
+}
+
+.tabs label {
+  order: 1;
+  display: flex;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px; 
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background ease 0.3s;
+}
+
+.tabs .tab {
+  border-bottom-left-radius: 64px;
+  border-bottom-right-radius: 64px; 
+  order: 9;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: 1rem;
+  background: #1c131c;
+  padding: 20px;
+  box-shadow: -10px 10px 0px 0px black;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: #1c131c;
+  color: white;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+@media (max-width: 465px) {
+  .tabs .tab, .tabs label {
+    order: initial;
+ }
+  .tabs label {
+    width: 100%;
+    margin-left: 50px;
+ }
 }
 
 /************ Projects Css ************/
@@ -393,6 +442,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .cheopily-description p {
   margin: 0px auto 0px auto;
   width: 80%;
+}
+
+.app-features  {
+  list-style: none;
+
 }
 
 .projects-header p {
@@ -514,6 +568,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.app-features a {
+  background: #1c131c; 
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(#FFF, 0.35);
+  display: block;
+  transition: all ease-out 300ms;
+}
+
+.app-features list-group-item:active {
+  background-color: white;
 }
 
 /************ Footer Css ************/
