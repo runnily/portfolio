@@ -193,7 +193,7 @@ export const Projects = () => {
                     </Row>
                     <br />
                     <span className="d-flex justify-content-center navbar-text">
-                      <button className="vvd link-button" onClick={(e) => window.location.href = "https://www.linkedin.com/in/adanna-obibuaku/"}>
+                      <button className="vvd link-button" onClick={(e) => window.location.href = "mailto:aaddanna@outlook.com"}>
                         <img src={mail} alt="mail icon" style={{ width: '15%' }} />
                         <span>   Get in touch!</span></button>
                     </span>
