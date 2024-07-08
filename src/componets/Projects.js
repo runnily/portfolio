@@ -1,17 +1,15 @@
 import { Col, Container, Tab, Row, Nav, ListGroup } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import blogProject from "../assets/img/blog.png";
 import ganProject from "../assets/img/gan.png";
 import styleProject from "../assets/img/ganproject.png";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg2 from "../assets/img/project-img2.png";
 import mail from "../assets/img/mail.svg"
 import app from "../assets/img/app.gif";
 import app2 from "../assets/img/app2.gif";
 import app3 from "../assets/img/app3.gif"
-import masters from "../assets/pdf/masters.pdf";
-import dist from "../assets/pdf/batch.pdf";
+import masters from "../assets/pdf/masters.pdf.zip";
+import dist from "../assets/pdf/batch.pdf.zip";
 
 
 
