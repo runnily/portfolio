@@ -30,7 +30,7 @@ export const Projects = () => {
     },
     {
       title: "Simulations of hybrid system using neural networks",
-      description: "Research project",
+      description: "Using regression neural networks, this project models hybrid systems by integrating continuous dynamics from differential equations. This network accurately predicts system behavior with an impressive MSE loss between 0.03 and 0.5 across multiple models.",
       imgUrl: dist,
       link: dist,
       image: false,
