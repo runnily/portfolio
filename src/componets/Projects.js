@@ -9,7 +9,7 @@ import app from "../assets/img/app.gif";
 import app2 from "../assets/img/app2.gif";
 import app3 from "../assets/img/app3.gif"
 import masters from "../assets/pdf/masters.pdf.zip";
-import dist from "../assets/pdf/batch.pdf.zip";
+import dist from "../assets/pdf/batch.pdf";
 
 
 
