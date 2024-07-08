@@ -62,7 +62,7 @@ export const Experience = () => {
                     <span><img className="icon" src={bulletPoint} alt="bullet-point"></img></span> Data engineer, Spotify Oct 2022 – Current
                   </h5>
                   <p>
-                    Leds data engineering projects from requirements gathering to ensuring data operations run smoothly, data arrives correctly, and data privacy standards are adhered to. Delivers features to machine learning platforms utilizing technologies and languages such as Scala, Python, Dataflow, and Google Cloud Platform.                                </p>
+                    Building data engineering projects from requirements gathering to ensuring data operations run smoothly, data arrives correctly, and data privacy standards are adhered to. Delivers features to machine learning platforms utilizing technologies and languages such as Scala, Python, Dataflow, and Google Cloud Platform.                                </p>
                   <p>
                     Reduced costs and runtime of the data pipeline, saving the team months of work, by utilizing a technique called sort-merge buckets, which avoids shuffling in a distributed data processing system.</p>
 

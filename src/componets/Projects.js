@@ -3,12 +3,12 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import ganProject from "../assets/img/gan.png";
 import styleProject from "../assets/img/ganproject.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/banner-bg.png";
 import mail from "../assets/img/mail.svg"
 import app from "../assets/img/app.gif";
 import app2 from "../assets/img/app2.gif";
 import app3 from "../assets/img/app3.gif"
-import masters from "../assets/pdf/masters.pdf.zip";
+import masters from "../assets/pdf/masters.pdf";
 import dist from "../assets/pdf/batch.pdf";
 
 
